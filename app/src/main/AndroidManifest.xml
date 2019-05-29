@@ -10,9 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
+            android:name=".book_time_charity"
+            android:label="@string/title_activity_book_time_charity"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
             android:name=".view_Bookings"
             android:label="@string/title_activity_view__bookings"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".booking_Time"
             android:label="@string/title_activity_booking__time"
